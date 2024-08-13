@@ -1,0 +1,197 @@
+  @media screen and (max-width:620px) {
+      .hero-section {
+          margin-top: -150px;
+          flex-wrap: wrap;
+
+          h1 {
+              line-height: 45px;
+              margin-bottom: 4px;
+          }
+      }
+
+  }
+
+  @media screen and (max-width:905px) {
+      .menu-list {
+          width: 100%;
+          flex-wrap: wrap;
+      }
+
+  }
+
+  @media screen and (max-width: 900px) {
+      .hero-section {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .hero-section img {
+          display: block;
+          transform: scale(0.8, 0.8);
+          margin: 10px 0;
+      }
+  }
+
+  @media screen and (max-width: 625px) {
+      .hero-section img {
+          display: none;
+      }
+  }
+
+  @media screen and (max-width:520px) {
+      .hero-section {
+          margin-left: -30px;
+          margin-top: -100px;
+          margin-bottom: -300px;
+      }
+
+  }
+
+  /* about me section */
+
+  @media screen and (max-width:950px) {
+      .aboutme {
+          display: flex;
+          flex-direction: column;
+      }
+
+  }
+
+  @media (max-width: 800px) {
+      .aboutprofile {
+          border-style: none;
+      }
+
+      .aboutprofile .pp img {
+          margin: 60px -100px;
+          transform: scale(0.7, 0.7);
+      }
+
+  }
+
+
+  @media screen and (max-width:520px) {
+
+      .aboutintro {
+          margin-left: 40px;
+          margin-top: -700px;
+      }
+
+      .aboutprofile .pp img {
+          display: none;
+      }
+
+  }
+
+  /* services */
+
+  @media screen and (max-width: 1030px) {
+      .service-head p {
+          margin-right: auto;
+          max-width: 500px;
+
+      }
+
+      .servicebottom {
+          flex-direction: column;
+          align-items: center;
+      }
+  }
+
+  @media screen and (max-width:520px) {
+      .service-head p {
+          margin-right: -300px;
+          max-width: 200px;
+      }
+
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+      .hero-section {
+          flex-direction: column;
+      }
+
+      .aboutme {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .aboutintro {
+          text-align: center;
+      }
+
+      .services .servicebottom {
+          flex-direction: column;
+      }
+
+      .portfolio {
+          height: 440px;
+      }
+
+      .portfolio-images .large {
+          display: none;
+      }
+
+      .portfolio-images .innerimages {
+          display: none;
+      }
+
+      .contactus {
+          flex-direction: column;
+
+          .contacttop {
+              .contactbtn {
+                  margin-left: 10px;
+                  display: flex;
+              }
+
+              p {
+                  margin-right: 400px;
+                  max-width: 450px;
+                  text-align: center;
+                  text-wrap: wrap;
+              }
+
+              flex-direction: column;
+          }
+      }
+
+      .contactdetails {
+          margin-left: 10px;
+      }
+
+      .contactform {
+          display: none;
+      }
+  }
+
+  @media (max-width: 480px) {
+
+      .main-text h2,
+      .main-text h1,
+      .service-head h1,
+      .aboutintro h1,
+      .portfolio-text h1 {
+          font-size: 1.5em;
+      }
+
+      .main-text p,
+      .abouttext p,
+      .service-head p,
+      .portfolio-text p,
+      .contacttop p {
+          font-size: 1em;
+      }
+
+      .social-icons a {
+          font-size: 1.2em;
+          margin: 0 5px;
+      }
+
+      .contactdetails,
+      .contactform {
+          max-width: 100%;
+      }
+  }
